@@ -4,7 +4,8 @@ function iterativeLog(array){
   })
 }
 function iterate(callback){
-  array.forEach((element,index)=>{
+  var array=["top","skirt","pants"];
+  array.forEach((callback)=>{
     return array;
   });
 }
