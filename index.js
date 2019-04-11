@@ -5,7 +5,7 @@ function iterativeLog(array){
 }
 function iterate(callback){
   var array=["top","skirt","pants"];
-  array.forEach((callback)=>{
+  array.forEach(callback =>{
     return array;
   });
 }
