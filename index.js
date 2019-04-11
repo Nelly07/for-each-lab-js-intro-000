@@ -8,3 +8,6 @@ function iterate(callback){
   array.forEach(callback);
     return array;
   }
+function toDoArray(array,callback){
+  array.forEach(callback);
+}
